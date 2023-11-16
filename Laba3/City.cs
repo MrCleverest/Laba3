@@ -13,7 +13,7 @@ namespace Laba3
         int population = 10000;
         // Площа міста
         double area = 100;
-        public int Popilation { get { return population; } set { population = value; } }
+        public int Population { get { return population; } set { population = value; } }
         public double Area { get { return area; } set { area = value; } }
 
         public City(string name, int houses, int residents, double area)

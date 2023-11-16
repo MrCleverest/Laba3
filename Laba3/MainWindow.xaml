@@ -19,9 +19,10 @@
         <Label Content="Площа:" HorizontalAlignment="Left" Margin="43,223,0,0" VerticalAlignment="Top"/>
         <Label Content="Тип поселення:" HorizontalAlignment="Left" Margin="21,65,0,0" VerticalAlignment="Top"/>
         <Label Content="Додавання поселення" HorizontalAlignment="Left" Margin="43,19,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Button Content="Додати" HorizontalAlignment="Left" Margin="81,275,0,0" VerticalAlignment="Top" FontSize="16" Width="117" Height="34" Click="Button_Click"/>
+        <Button Content="Додати" HorizontalAlignment="Left" Margin="43,276,0,0" VerticalAlignment="Top" FontSize="16" Width="117" Height="34" Click="Button_Click"/>
         <DataGrid Name="Table" Margin="290,23,28,15" ColumnWidth="153"/>
         <TextBox Name="Text0" HorizontalAlignment="Left" Margin="137,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Назва поселення" HorizontalAlignment="Left" Margin="16,103,0,0" VerticalAlignment="Top"/>
+        <Label Name="Min" Content="" HorizontalAlignment="Left" Margin="178,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.356,0.519"/>
     </Grid>
 </Window>

@@ -47,6 +47,10 @@ namespace Laba3
                 double density = local.PopulationDensity();
 
                 showHelper.AddPopulation(local, density);
+
+                // Найменше значення щільності населення:
+                double min = showHelper.FindMinimumDensity();
+                Min.Content=$"Min щн: {min}";
             }
             catch (Exception ex) 
             {

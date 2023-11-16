@@ -38,5 +38,15 @@ namespace Laba3
 
             return "Інше";
         }
+        public double FindMinimumDensity()
+        {
+            if (PopulationCollection.Count == 0)
+            {
+                throw new InvalidOperationException("The population collection is empty.");
+            }
+
+            double minDensity = PopulationCollection.Min(item => item.PopulationDensity);
+            return minDensity;
+        }
     }
 }
